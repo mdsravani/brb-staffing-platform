@@ -1,6 +1,6 @@
 export default function Trusted() {
   return (
-    <section className="w-full py-16 bg-gray-50">
+    <section className="w-full py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 text-center">
 
         <p className="text-sm uppercase tracking-wide text-gray-500">
