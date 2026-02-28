@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <nav className="w-full border-b bg-white">
+    <nav className="w-full border-b bg-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
         <span className="font-bold text-lg">
           BRB Data InfoTech
