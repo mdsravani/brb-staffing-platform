@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="w-full border-b bg-white">
@@ -7,11 +8,12 @@ export default function Navbar() {
         </span>
 
         <div className="space-x-6 text-sm">
-          <a href="#" className="hover:text-blue-600">Home</a>
-          <a href="/about" className="hover:text-blue-600">About</a>
-          <a href="/services" className="hover:text-blue-600">Services</a>
-          <a href="/compliance" className="hover:text-blue-600">Compliance</a>
-          <a href="#" className="hover:text-blue-600">Contact</a>
+          <Link href="/" className="hover:text-blue-600">Home</Link>
+          <Link href="/about" className="hover:text-blue-600">About</Link>
+          <Link href="/services" className="hover:text-blue-600">Services</Link>
+          <Link href="/compliance" className="hover:text-blue-600">Compliance</Link>
+          <Link href="/careers" className="hover:text-blue-600">Careers</Link>
+          <Link href="/contact" className="hover:text-blue-600">Contact</Link>
         </div>
       </div>
     </nav>
