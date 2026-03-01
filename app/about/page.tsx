@@ -9,8 +9,7 @@ export default function AboutPage() {
             About BRB Data InfoTech
           </h1>
           <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
-            A structured middle-vendor staffing partner connecting skilled IT professionals 
-            with workforce opportunities across the United States.
+            A professional IT staffing and workforce solutions company delivering talent acquisition and immigration support services across the United States.
           </p>
         </div>
       </section>
@@ -24,9 +23,7 @@ export default function AboutPage() {
               Who We Are
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              BRB Data InfoTech operates as a professional workforce coordination partner, 
-              supporting staffing firms and prime vendors by marketing qualified 
-              IT consultants and facilitating structured placement processes.
+              BRB Data InfoTech is an IT staffing and workforce solutions firm specializing in talent acquisition, visa sponsorship, and long-term consultant engagement across multiple industries in the United States.
             </p>
           </div>
 
@@ -38,28 +35,43 @@ export default function AboutPage() {
       </section>
 
       {/* Our Approach */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-semibold mb-10 text-center">
-            Our Approach
-          </h2>
+<section className="py-20 bg-gray-50">
+  <div className="max-w-5xl mx-auto px-4">
+    <h2 className="text-3xl font-semibold mb-10 text-center">
+      Our Approach
+    </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-6 border rounded-lg bg-white">
-              Structured consultant evaluation
-            </div>
-            <div className="p-6 border rounded-lg bg-white">
-              Vendor-focused submission management
-            </div>
-            <div className="p-6 border rounded-lg bg-white">
-              Transparent coordination processes
-            </div>
-            <div className="p-6 border rounded-lg bg-white">
-              Long-term engagement support
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="grid md:grid-cols-2 gap-8">
+      <div className="p-6 border rounded-lg bg-white">
+        Strategic Talent Acquisition
+        <p className="text-sm text-gray-600 mt-2">
+          Identifying and onboarding highly skilled IT professionals aligned with enterprise requirements.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        Immigration & Visa Support
+        <p className="text-sm text-gray-600 mt-2">
+          Structured visa sponsorship and employment authorization processes.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        Compliance & Documentation
+        <p className="text-sm text-gray-600 mt-2">
+          Maintaining employment verification and regulatory alignment.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        Long-Term Engagement
+        <p className="text-sm text-gray-600 mt-2">
+          Ongoing workforce support for consultants and client organizations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Compliance Commitment */}
       <section className="py-20">

@@ -6,13 +6,12 @@ export default function Hero() {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Connecting Skilled IT Consultants
+            Connecting Skilled IT Professionals With America's Leading Enterprises
             <span className="text-blue-600"> Across the United States</span>
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg">
-            Supporting prime vendors and enterprises with pre-screened technology professionals 
-            and helping consultants secure the right opportunities.
+            Delivering workforce solutions, visa sponsorship support, and structured talent engagement across the United States.
           </p>
 
           <div className="mt-8 flex gap-4">

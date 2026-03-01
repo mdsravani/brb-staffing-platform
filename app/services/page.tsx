@@ -6,11 +6,11 @@ export default function ServicesPage() {
       <section className="py-24 bg-slate-900 text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Our Workforce Solutions
+            IT Staffing & Immigration Solutions
           </h1>
           <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
-            Structured staffing support designed for vendor partners 
-            and skilled IT consultants across the United States.
+            Delivering specialized IT staffing solutions with structured immigration 
+            and compliance support across the United States.
           </p>
         </div>
       </section>
@@ -21,14 +21,14 @@ export default function ServicesPage() {
           
           <div>
             <h2 className="text-3xl font-semibold mb-6">
-              For Staffing Partners & Vendors
+             For Enterprise Clients
             </h2>
             <ul className="space-y-4 text-gray-600 leading-relaxed">
-              <li>• Pre-screened IT consultant network</li>
-              <li>• Rapid candidate submission support</li>
-              <li>• Structured communication & coordination</li>
-              <li>• Flexible engagement alignment</li>
-              <li>• Ongoing placement support</li>
+              <li>• Specialized IT talent acquisition</li>
+              <li>• Rapid consultant onboarding</li>
+              <li>• Flexible workforce engagement models</li>
+              <li>• Immigration-compliant workforce deployment</li>
+              <li>• Long-term staffing partnerships</li>
             </ul>
           </div>
 
@@ -48,20 +48,74 @@ export default function ServicesPage() {
           </div>
 
           <div className="order-1 md:order-2">
-            <h2 className="text-3xl font-semibold mb-6">
-              For IT Consultants & Job Seekers
+             <h2 className="text-3xl font-semibold mb-6">
+                For IT Professionals
             </h2>
             <ul className="space-y-4 text-gray-600 leading-relaxed">
-              <li>• Resume marketing to vendor partners</li>
-              <li>• Interview coordination assistance</li>
-              <li>• Submission tracking & updates</li>
-              <li>• Work authorization & compliance guidance</li>
-              <li>• Long-term career engagement support</li>
+              <li>• Structured career placement support</li>
+              <li>• Visa sponsorship & immigration assistance</li>
+              <li>• Work authorization guidance</li>
+              <li>• H-1B transfers and OPT/STEM processing</li>
+              <li>• Long-term project engagement opportunities</li>
             </ul>
           </div>
 
         </div>
       </section>
+
+      {/* Visa Sponsorship Section */}
+    <section className="py-20">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl font-semibold mb-10 text-center">
+          Visa Sponsorship & Immigration Support
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-8">
+
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">H-1B Visa Sponsorship</h3>
+            <p className="text-sm text-gray-600">
+              Direct employer-based H-1B sponsorship with structured petition filing,
+              documentation management, and compliance oversight.
+            </p>
+
+            <h3 className="font-semibold mb-2">OPT / STEM OPT</h3>
+            <p className="text-sm text-gray-600">
+              E-Verify enrolled employer supporting 24-month STEM OPT extensions
+              for eligible graduates in designated fields.
+            </p>
+
+            <h3 className="font-semibold mb-2">H-1B Transfers</h3>
+            <p className="text-sm text-gray-600">
+              Employer-to-employer H-1B transfer processing with streamlined
+              documentation and rapid compliance alignment.
+            </p>
+          </div>
+
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">CPT Programs</h3>
+            <p className="text-sm text-gray-600">
+              Curricular Practical Training placement support for international students.
+            </p>
+          </div>
+
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">TN-1 / TN-2 Visas</h3>
+            <p className="text-sm text-gray-600">
+              USMCA professional visas for Canadian and Mexican citizens.
+            </p>
+          </div>
+
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">Green Card (EB-2 / EB-3)</h3>
+            <p className="text-sm text-gray-600">
+              PERM labor certification and permanent residency filing support.
+            </p>
+          </div>
+
+      </div>
+    </div>
+  </section>
 
       {/* Engagement Process */}
       <section className="py-20">
@@ -71,31 +125,31 @@ export default function ServicesPage() {
           </h2>
 
           <div className="grid md:grid-cols-4 gap-8 text-left">
-            <div className="p-6 border rounded-lg">
-              <h3 className="font-semibold mb-2">1. Consultant Evaluation</h3>
-              <p className="text-sm text-gray-600">
-                Structured screening and profile validation.
-              </p>
-            </div>
-            <div className="p-6 border rounded-lg">
-              <h3 className="font-semibold mb-2">2. Vendor Submission</h3>
-              <p className="text-sm text-gray-600">
-                Coordinated candidate marketing and submission.
-              </p>
-            </div>
-            <div className="p-6 border rounded-lg">
-              <h3 className="font-semibold mb-2">3. Interview Support</h3>
-              <p className="text-sm text-gray-600">
-                Scheduling and communication management.
-              </p>
-            </div>
-            <div className="p-6 border rounded-lg">
-              <h3 className="font-semibold mb-2">4. Placement Follow-Up</h3>
-              <p className="text-sm text-gray-600">
-                Ongoing coordination and engagement tracking.
-              </p>
-            </div>
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">1. Talent Assessment</h3>
+            <p className="text-sm text-gray-600">
+              Technical evaluation and workforce alignment review.
+            </p>
           </div>
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">2. Client Alignment</h3>
+            <p className="text-sm text-gray-600">
+              Matching qualified professionals with enterprise requirements.
+            </p>
+          </div>
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">3. Immigration Processing</h3>
+            <p className="text-sm text-gray-600">
+              Visa sponsorship and compliance documentation handling.
+            </p>
+          </div>
+          <div className="p-6 border rounded-lg">
+            <h3 className="font-semibold mb-2">4. Workforce Deployment</h3>
+            <p className="text-sm text-gray-600">
+              Structured onboarding and ongoing engagement support.
+            </p>
+          </div>
+        </div>
         </div>
       </section>
 

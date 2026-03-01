@@ -1,26 +1,26 @@
 export default function WhyChooseUs() {
   const points = [
-    {
-      title: "Pre-Screened Talent Network",
-      description:
-        "Carefully evaluated IT consultants ready for rapid deployment across various industries.",
-    },
-    {
-      title: "Structured Vendor Coordination",
-      description:
-        "Efficient communication and submission management with prime vendors and partners.",
-    },
-    {
-      title: "Compliance Focused Approach",
-      description:
-        "Adherence to work authorization and employment verification standards.",
-    },
-    {
-      title: "Long-Term Relationship Support",
-      description:
-        "Ongoing engagement support for both consultants and vendor partners.",
-    },
-  ];
+  {
+    title: "Specialized IT Talent Acquisition",
+    description:
+      "Strategic sourcing and placement of highly skilled IT professionals across enterprise environments.",
+  },
+  {
+    title: "Comprehensive Visa Sponsorship",
+    description:
+      "Structured immigration support including H-1B, OPT/STEM, TN, and permanent residency processes.",
+  },
+  {
+    title: "E-Verify & Compliance Commitment",
+    description:
+      "Employment verification and regulatory alignment to ensure workforce authorization standards.",
+  },
+  {
+    title: "Long-Term Workforce Partnerships",
+    description:
+      "Building sustainable engagement models for both consultants and enterprise clients.",
+  },
+];
 
   return (
     <section className="w-full py-20 bg-gray-50">
@@ -30,8 +30,7 @@ export default function WhyChooseUs() {
         </h2>
 
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Delivering structured workforce solutions with professionalism,
-          transparency, and long-term partnership focus.
+          Delivering IT staffing and immigration-enabled workforce solutions with enterprise-grade professionalism and compliance standards.
         </p>
 
         <div className="mt-12 grid md:grid-cols-2 gap-8 text-left">

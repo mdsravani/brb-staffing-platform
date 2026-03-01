@@ -6,54 +6,71 @@ export default function CompliancePage() {
       <section className="py-24 bg-slate-900 text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Compliance & Workforce Standards
+            Compliance & Immigration Standards
           </h1>
           <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
-            Maintaining structured employment verification practices 
-            and workforce documentation standards across engagements.
+            Maintaining rigorous employment verification, immigration alignment,
+            and workforce compliance standards across all engagements.
           </p>
         </div>
       </section>
 
-      {/* Employment Verification */}
+      {/* E-Verify Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-semibold mb-6">
+            BRB Data InfoTech Is an E-Verify Participating Company
+          </h2>
+
+          <p className="text-gray-600 max-w-3xl mx-auto mb-10">
+            We are enrolled in the E-Verify program administered by the
+            U.S. Department of Homeland Security (DHS) and the Social
+            Security Administration (SSA) to confirm employment
+            authorization for our workforce.
+          </p>
+
+          <div className="grid md:grid-cols-4 gap-6 text-sm">
+            <div className="p-4 border rounded-lg bg-white">
+              ✓ DHS Authorized E-Verify Participant
+            </div>
+            <div className="p-4 border rounded-lg bg-white">
+              ✓ I-9 Employment Verification
+            </div>
+            <div className="p-4 border rounded-lg bg-white">
+              ✓ STEM OPT 24-Month Extension Eligible
+            </div>
+            <div className="p-4 border rounded-lg bg-white">
+              ✓ USCIS Process Alignment
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Immigration & Work Authorization */}
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-semibold mb-6">
-            Employment Verification
+            Immigration & Work Authorization
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            We support structured employment verification processes 
-            aligned with applicable workforce requirements and vendor 
-            expectations. Our coordination includes documentation review 
-            and compliance communication where applicable.
+            We directly sponsor H-1B petitions as an employer entity and maintain
+            structured immigration and employment compliance processes across
+            all workforce engagements.
           </p>
         </div>
       </section>
 
-      {/* Work Authorization */}
+      {/* Workforce Compliance */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-semibold mb-6">
-            Work Authorization Handling
+            Workforce Compliance Framework
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            We assist consultants in maintaining appropriate work authorization 
-            documentation and coordinate transparently with vendor partners 
-            regarding employment status and eligibility.
-          </p>
-        </div>
-      </section>
-
-      {/* Vendor Alignment */}
-      <section className="py-20">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-semibold mb-6">
-            Vendor Alignment & Documentation
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Our processes are structured to support vendor submission guidelines, 
-            onboarding documentation requirements, and communication clarity 
-            throughout the placement lifecycle.
+            Our compliance framework includes employment eligibility
+            verification, immigration documentation management,
+            regulatory record keeping, and structured onboarding
+            processes to meet enterprise and federal workforce standards.
           </p>
         </div>
       </section>
