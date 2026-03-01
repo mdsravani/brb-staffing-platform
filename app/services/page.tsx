@@ -64,58 +64,63 @@ export default function ServicesPage() {
       </section>
 
       {/* Visa Sponsorship Section */}
-    <section className="py-20">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-semibold mb-10 text-center">
-          Visa Sponsorship & Immigration Support
-        </h2>
+      {/* Visa Sponsorship Section */}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-6xl mx-auto px-4">
+    <h2 className="text-3xl font-semibold mb-10 text-center">
+      Visa Sponsorship & Immigration Support
+    </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-2 gap-8">
 
-          <div className="p-6 border rounded-lg">
-            <h3 className="font-semibold mb-2">H-1B Visa Sponsorship</h3>
-            <p className="text-sm text-gray-600">
-              Direct employer-based H-1B sponsorship with structured petition filing,
-              documentation management, and compliance oversight.
-            </p>
-
-            <h3 className="font-semibold mb-2">OPT / STEM OPT</h3>
-            <p className="text-sm text-gray-600">
-              E-Verify enrolled employer supporting 24-month STEM OPT extensions
-              for eligible graduates in designated fields.
-            </p>
-
-            <h3 className="font-semibold mb-2">H-1B Transfers</h3>
-            <p className="text-sm text-gray-600">
-              Employer-to-employer H-1B transfer processing with streamlined
-              documentation and rapid compliance alignment.
-            </p>
-          </div>
-
-          <div className="p-6 border rounded-lg">
-            <h3 className="font-semibold mb-2">CPT Programs</h3>
-            <p className="text-sm text-gray-600">
-              Curricular Practical Training placement support for international students.
-            </p>
-          </div>
-
-          <div className="p-6 border rounded-lg">
-            <h3 className="font-semibold mb-2">TN-1 / TN-2 Visas</h3>
-            <p className="text-sm text-gray-600">
-              USMCA professional visas for Canadian and Mexican citizens.
-            </p>
-          </div>
-
-          <div className="p-6 border rounded-lg">
-            <h3 className="font-semibold mb-2">Green Card (EB-2 / EB-3)</h3>
-            <p className="text-sm text-gray-600">
-              PERM labor certification and permanent residency filing support.
-            </p>
-          </div>
-
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">H-1B Visa Sponsorship</h3>
+        <p className="text-sm text-gray-600">
+          Direct employer-based H-1B sponsorship with structured petition filing,
+          documentation management, and compliance oversight.
+        </p>
       </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">OPT / STEM OPT</h3>
+        <p className="text-sm text-gray-600">
+          E-Verify enrolled employer supporting 24-month STEM OPT extensions
+          for eligible graduates in designated fields.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">H-1B Transfers</h3>
+        <p className="text-sm text-gray-600">
+          Employer-to-employer H-1B transfer processing with streamlined
+          documentation and rapid compliance alignment.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">CPT Programs</h3>
+        <p className="text-sm text-gray-600">
+          Curricular Practical Training placement support for international students.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">TN-1 / TN-2 Visas</h3>
+        <p className="text-sm text-gray-600">
+          USMCA professional visas for Canadian and Mexican citizens.
+        </p>
+      </div>
+
+      <div className="p-6 border rounded-lg bg-white">
+        <h3 className="font-semibold mb-2">Green Card (EB-2 / EB-3)</h3>
+        <p className="text-sm text-gray-600">
+          PERM labor certification and permanent residency filing support.
+        </p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
       {/* Engagement Process */}
       <section className="py-20">
