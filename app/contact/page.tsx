@@ -1,4 +1,39 @@
+"use client";
+import { useState } from "react";
 export default function ContactPage() {
+  const [form, setForm] = useState({
+  name: "",
+  email: "",
+  message: "",
+});
+
+const [loading, setLoading] = useState(false);
+const [status, setStatus] = useState("");
+
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setLoading(true);
+  setStatus("");
+
+  const res = await fetch("/api/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(form),
+  });
+
+  const data = await res.json();
+
+  if (res.ok) {
+    setStatus("Message sent successfully!");
+    setForm({ name: "", email: "", message: "" });
+  } else {
+    setStatus(data.error || "Something went wrong.");
+  }
+
+  setLoading(false);
+};
   return (
     <main className="w-full">
 
@@ -67,14 +102,18 @@ export default function ContactPage() {
               Send Us a Message
             </h2>
 
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium mb-2">
                   Full Name
                 </label>
                 <input
                   type="text"
-                  className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-slate-900"
+                  value={form.name}
+                  onChange={(e) =>
+                    setForm({ ...form, name: e.target.value })
+                  }
+                  className="w-full border rounded-md px-4 py-3"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -85,7 +124,11 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="email"
-                  className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-slate-900"
+                  value={form.email}
+                  onChange={(e) =>
+                    setForm({ ...form, email: e.target.value })
+                  }
+                  className="w-full border rounded-md px-4 py-3"
                   placeholder="Enter your email"
                 />
               </div>
@@ -96,17 +139,27 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full border rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-slate-900"
+                  value={form.message}
+                  onChange={(e) =>
+                    setForm({ ...form, message: e.target.value })
+                  }
+                  className="w-full border rounded-md px-4 py-3"
                   placeholder="Write your message..."
                 />
               </div>
 
               <button
-                type="submit"
-                className="w-full bg-slate-900 text-white py-3 rounded-md font-medium hover:bg-slate-800"
-              >
-                Submit Inquiry
-              </button>
+              type="submit"
+              disabled={loading}
+              className="w-full bg-blue-700 text-white py-3 rounded-md font-medium hover:bg-blue-800 transition disabled:opacity-50"
+            >
+              {loading ? "Sending..." : "Submit Inquiry"}
+            </button>
+            {status && (
+                <p className="text-sm mt-4 text-center">
+                  {status}
+                </p>
+              )}
             </form>
           </div>
 
