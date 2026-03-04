@@ -1,14 +1,13 @@
 import { Resend } from "resend";
 
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { name, email, message } = body;
+    const { firstName, lastName, email, phone, interest, message } = body;
 
-    if (!name || !email || !message) {
+    if (!firstName || !lastName || !email || !message) {
       return new Response(
         JSON.stringify({ error: "All fields are required." }),
         { status: 400 }
@@ -16,17 +15,19 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-  from: "BRB Website <onboarding@resend.dev>",
-  to: ["mdsravanidatascience@gmail.com"],
-  subject: "New Website Inquiry",
-  text: `
-Name: ${name}
+      from: "BRB Website <onboarding@resend.dev>",
+      to: ["mdsravanidatascience@gmail.com"],
+      subject: `New Inquiry: ${interest || "General"} — ${firstName} ${lastName}`,
+      text: `
+Name: ${firstName} ${lastName}
 Email: ${email}
+Phone: ${phone || "—"}
+Interest: ${interest || "—"}
 
 Message:
 ${message}
-  `,
-});
+      `,
+    });
 
     return new Response(
       JSON.stringify({ success: true }),
