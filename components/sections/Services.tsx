@@ -10,7 +10,7 @@ const enterpriseServices = [
       </svg>
     ),
     title: "Specialized IT Talent Acquisition",
-    desc: "End-to-end sourcing of pre-vetted IT professionals across software, cloud, data, and infrastructure domains.",
+    desc: "End-to-end sourcing of qualified IT professionals across software, cloud, data, and infrastructure domains.",
   },
   {
     icon: (
@@ -19,7 +19,7 @@ const enterpriseServices = [
       </svg>
     ),
     title: "Rapid Consultant Onboarding",
-    desc: "Streamlined onboarding workflows that get qualified consultants productive from day one — minimizing project lag.",
+    desc: "Streamlined onboarding workflows that help teams ramp up consultants quickly and efficiently.",
   },
   {
     icon: (
@@ -28,8 +28,8 @@ const enterpriseServices = [
       </svg>
     ),
     title: "Flexible Engagement Structures",
-    desc: "Contract, contract-to-hire, and direct placement models tailored to your project scope and timeline.",
-  },
+    desc: "Contract, contract-to-hire, and direct placement models aligned with your project scope and timeline.",
+    },
   {
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -37,7 +37,7 @@ const enterpriseServices = [
       </svg>
     ),
     title: "Compliance-Aligned Deployment",
-    desc: "Full E-Verify, EEOC, and USCIS compliance baked into every placement — protecting your organization at every step.",
+    desc: "Alignment with E-Verify and standard employment compliance practices for responsible workforce deployment.",
   },
 ];
 
@@ -49,7 +49,7 @@ const consultantServices = [
       </svg>
     ),
     title: "Structured Career Placement",
-    desc: "Personalized placement support that aligns your skills and goals with the right enterprise opportunities.",
+    desc: "Personalized placement support aligning your skills with enterprise technology opportunities.",
   },
   {
     icon: (
@@ -59,7 +59,7 @@ const consultantServices = [
       </svg>
     ),
     title: "H-1B Visa Sponsorship",
-    desc: "Direct employer-of-record sponsorship — no third parties. We handle USCIS filing, documentation, and processing end-to-end.",
+    desc: "Direct employer sponsorship with structured USCIS filing and documentation support.",
   },
   {
     icon: (
@@ -69,7 +69,7 @@ const consultantServices = [
       </svg>
     ),
     title: "Work Authorization Guidance",
-    desc: "Expert support for OPT, STEM OPT, CPT, and Green Card transitions — keeping your status current at every stage.",
+    desc: "Guidance around common U.S. work authorization pathways including OPT, STEM OPT, CPT, and employment-based transitions.",
   },
   {
     icon: (
@@ -78,7 +78,7 @@ const consultantServices = [
       </svg>
     ),
     title: "Long-Term Engagement Support",
-    desc: "Ongoing career management, project renewals, and re-placement support — we stay invested in your growth beyond day one.",
+    desc: "Ongoing support for project continuity, renewals, and future placement opportunities.",
   },
 ];
 

@@ -24,10 +24,10 @@ const services: Service[] = [
 ];
 
 const checks = [
-  "Direct H-1B Sponsorship — No Third-Party Vendors",
+  "Employment-Based Visa Support",
   "OPT, STEM OPT & CPT Candidates Supported",
-  "Nationwide Placements Across 30+ U.S. States",
-  "100% E-Verify Compliant & USCIS Authorized",
+  "Nationwide Placements Across the United States",
+  "100% E-Verify Compliant Employer",
 ];
 
 export default function Hero() {
@@ -84,7 +84,7 @@ export default function Hero() {
           <div>
             <div className="a1" style={{display:"inline-flex",alignItems:"center",gap:8,background:"linear-gradient(135deg,#eff6ff,#dbeafe)",border:"1px solid #bfdbfe",borderRadius:24,padding:"6px 16px",marginBottom:28}}>
               <span style={{width:7,height:7,borderRadius:"50%",background:"#1a56db",flexShrink:0}}/>
-              <span style={{fontSize:11.5,fontWeight:700,color:"#1a56db",letterSpacing:"0.08em",textTransform:"uppercase"}}>U.S.-Based IT Staffing & H-1B Sponsorship</span>
+              <span style={{fontSize:11.5,fontWeight:700,color:"#1a56db",letterSpacing:"0.08em",textTransform:"uppercase"}}>U.S.-Based IT Staffing</span>
             </div>
 
             <h1 className="a2" style={{fontFamily:"'Fraunces',serif",fontSize:"clamp(36px,4.2vw,56px)",fontWeight:700,color:"#0f172a",margin:"0 0 6px",lineHeight:1.08,letterSpacing:"-0.028em"}}>
@@ -95,8 +95,7 @@ export default function Hero() {
             </h1>
 
             <p className="a3" style={{fontSize:16,color:"#64748b",lineHeight:1.8,marginBottom:34,maxWidth:500}}>
-              BRB Data InfoTech is a U.S.-based IT staffing firm specializing in direct H-1B sponsorship, immigration-compliant hiring, and enterprise workforce deployment — with zero third-party involvement.
-            </p>
+            BRB Data InfoTech is a U.S.-based IT staffing firm providing enterprise workforce solutions and immigration-compliant hiring support across the United States.                </p>
 
             <div className="a4" style={{display:"flex",flexDirection:"column",gap:10,marginBottom:38}}>
               {checks.map(item => (
@@ -138,14 +137,15 @@ export default function Hero() {
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(255,255,255,0.1)",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontSize:18}}>🛡️</div>
               <div>
                 <p style={{fontSize:13,fontWeight:700,color:"#fff",margin:0}}>E-Verify Certified</p>
-                <p style={{fontSize:11,color:"rgba(255,255,255,0.45)",margin:"2px 0 0",fontWeight:500}}>USCIS Authorized Sponsor</p>
-              </div>
+                  <p style={{fontSize:11,color:"rgba(255,255,255,0.45)",margin:"2px 0 0",fontWeight:500}}>
+                  Immigration Compliant Employer
+                  </p>              </div>
             </div>
 
             {/* Floating: H-1B */}
             <div style={{position:"absolute",top:"38%",right:-22,background:"linear-gradient(135deg,#7c3aed,#a78bfa)",borderRadius:12,padding:"12px 16px",boxShadow:"0 8px 24px rgba(124,58,237,0.35)",textAlign:"center"}}>
-              <p style={{fontSize:15,fontWeight:800,color:"#fff",margin:0,letterSpacing:"-0.02em"}}>H-1B</p>
-              <p style={{fontSize:9.5,color:"rgba(255,255,255,0.8)",margin:"2px 0 0",fontWeight:600,textTransform:"uppercase",letterSpacing:"0.04em"}}>Direct Sponsor</p>
+              <p style={{fontSize:15,fontWeight:800,color:"#fff",margin:0,letterSpacing:"-0.02em"}}>Enterprise</p>
+              <p style={{fontSize:9.5,color:"rgba(255,255,255,0.8)",margin:"2px 0 0",fontWeight:600,textTransform:"uppercase",letterSpacing:"0.04em"}}>🏢 IT Clients</p>
             </div>
           </div>
         </div>

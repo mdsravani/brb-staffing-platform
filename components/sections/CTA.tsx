@@ -31,7 +31,7 @@ export default function CTA() {
         {/* Badge */}
         <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)", borderRadius: 100, padding: "6px 16px", marginBottom: 28 }}>
           <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#4ade80", display: "inline-block", animation: "pulse-ring 2s ease-in-out infinite" }} />
-          <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#bfdbfe" }}>Actively Placing Consultants</span>
+          <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "#bfdbfe" }}>Connecting Talent with Opportunity</span>
         </div>
 
         {/* Heading */}
@@ -42,16 +42,15 @@ export default function CTA() {
 
         {/* Subtext */}
         <p style={{ fontSize: 16, color: "rgba(148,163,184,0.90)", lineHeight: 1.85, maxWidth: 540, margin: "0 auto 40px" }}>
-          Partner with BRB Data InfoTech for enterprise IT staffing, direct H-1B sponsorship, and compliance-driven workforce solutions across the United States.
-        </p>
+          Partner with BRB Data InfoTech for enterprise IT staffing, direct H-1B sponsorship support, and structured workforce solutions across the United States.        </p>
 
         {/* Stats row */}
         <div style={{ display: "flex", justifyContent: "center", gap: 40, marginBottom: 44, flexWrap: "wrap" }}>
           {[
-            { value: "500+", label: "Consultants Placed" },
-            { value: "H-1B", label: "Direct Sponsorship" },
-            { value: "50+", label: "Client Companies" },
-          ].map((s, i) => (
+            { value: "Enterprise", label: "IT Staffing" },
+            { value: "H-1B", label: "Sponsorship Support" },
+            { value: "Nationwide", label: "Opportunities" }
+            ].map((s, i) => (
             <div key={s.label} style={{ textAlign: "center", position: "relative" }}>
               {i !== 0 && (
                 <div style={{ position: "absolute", left: -22, top: "50%", transform: "translateY(-50%)", width: 1, height: 28, background: "rgba(255,255,255,0.08)" }} />
@@ -83,8 +82,7 @@ export default function CTA() {
 
         {/* Trust note */}
         <p style={{ marginTop: 28, fontSize: 12, color: "#64748b" }}>
-          No placement fees for consultants · H-1B, OPT, STEM OPT, GC supported
-        </p>
+          Supporting H-1B, OPT, and STEM OPT professionals        </p>
 
       </div>
     </section>

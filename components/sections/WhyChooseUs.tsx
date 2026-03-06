@@ -83,8 +83,8 @@ const points: Point[] = [
 const credentials: Credential[] = [
   { icon: "🛡️", label: "E-Verify Certified",    sub: "Federal employer standard" },
   { icon: "⚖️", label: "EEOC Compliant",         sub: "Equal opportunity employer" },
-  { icon: "🇺🇸", label: "USCIS Authorized",       sub: "Direct H-1B sponsor" },
-  { icon: "🤝", label: "No Third-Party Vendors", sub: "Fully in-house process" },
+  { icon: "🇺🇸", label: "USCIS Authorized",       sub: "H-1B sponsorship support" },
+  { icon: "🤝", label: "Direct Employer Model", sub: "In-house hiring and sponsorship" }
 ];
 
 function PointCard({ point, index, mounted }: PointCardProps): React.ReactElement {
